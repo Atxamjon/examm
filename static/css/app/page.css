@@ -1,0 +1,891 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[13].use[5]!./src/components/Discount/page.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.discount {
+  border-radius: 30px;
+  background: var(--Primary-Color, #6C5FBC);
+  width: 90%;
+  background-image: url(/_next/static/media/bgrame.db3d71c0.png);
+  padding: 35px;
+  margin: 100px 35px;
+  margin-bottom: 250px;
+}
+.discount h1 {
+  color: #FFF;
+  font-size: 70px;
+  padding: 20px 0;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.discount .discount_img {
+  margin-right: 115px;
+}
+.discount label {
+  border-radius: 14.234px;
+  background: #FFF;
+  box-shadow: 0px 7.25333px 45.33334px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  padding: 17px 20px;
+  width: 550px;
+  align-items: center;
+}
+.discount input {
+  border-radius: 14.234px;
+  background: #FFF;
+  color: #878787;
+  font-family: Poppins;
+  font-size: 16.268px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.488px;
+  text-transform: capitalize;
+  border: none;
+  box-shadow: 0px 7.25333px 45.33334px 0px rgba(0, 0, 0, 0.1);
+}
+.discount button {
+  color: #F7F8FA;
+  font-family: Poppins;
+  font-size: 14.752px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+  letter-spacing: 0.443px;
+  text-transform: uppercase;
+  border-radius: 11.253px;
+  background: #6C5FBC;
+  padding: 12px 25px;
+}
+.discount img {
+  position: absolute;
+  transform: scale(300%);
+  right: 120px;
+}
+
+@media screen and (max-width: 768px) {
+  .discountBox {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .discountBox h1 {
+    text-align: center;
+  }
+  .discountBox label {
+    flex-direction: column;
+    width: 100%;
+  }
+  .discountBox img {
+    position: absolute;
+    transform: scale(190%);
+    right: 50px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Styles for screens with a minimum width of 769px and a maximum width of 1024px */
+  body {
+    font-size: 18px;
+  }
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[13].use[5]!./src/components/CustomImage/image.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.customImage {
+  position: relative;
+  object-fit: contain;
+  transition-duration: 700ms;
+  transition-timing-function: ease-in-out;
+}
+
+.loading {
+  transform: scale(1);
+  filter: blur(0);
+  filter: grayscale(0);
+}
+
+.loaded {
+  filter: grayscale(1);
+  transform: scale(1.1);
+  filter: blur(2rem);
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[13].use[5]!./src/components/Dishes/dishesCart.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.dishesWrapper {
+  padding: 35px;
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.dishcart {
+  border-radius: 34.665px;
+  width: 225.169px;
+  height: 391.299px;
+  flex-shrink: 0;
+  border: 1.444px solid #F4F4F6;
+  background: #FFF;
+  box-shadow: 6.8649px 82.37885px 41.18943px 0px rgba(229, 229, 229, 0.7);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  gap: 10px;
+}
+.dishcart h3 {
+  color: #323142;
+  font-size: 23.11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 37.553px;
+}
+
+.little {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.little span {
+  display: flex;
+  color: #8E97A6;
+  font-size: 17.332px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23.11px;
+  /* 133.333% */
+}
+
+.likeBtn {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  right: 15px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.bottom .tocartButton {
+  border: none;
+  width: 40.935px;
+  height: 36.816px;
+  flex-shrink: 0;
+  background-color: #323142;
+  color: white;
+  font-weight: 700;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bottom .tocartButton svg {
+  width: 40px;
+}
+
+.price {
+  color: #323142;
+  font-size: 25.998px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40.442px;
+  /* 155.556% */
+}
+
+.mark {
+  font-size: 11.45px;
+  font-style: normal;
+  font-weight: 400;
+  width: -moz-fit-content;
+  width: fit-content;
+  line-height: normal;
+  padding: 3px 7px;
+  border-radius: 4.839px;
+}
+
+@media screen and (max-width: 768px) {
+  .dishesWrapper {
+    padding: 0px;
+    display: flex;
+    justify-content: baseline;
+    gap: 25px;
+  }
+  .dishcart {
+    border-radius: 25px;
+    width: 160px;
+    height: 250px;
+    padding: 10px;
+    gap: 0px;
+  }
+  .dishcart img {
+    width: 100%;
+    height: 120px;
+    margin: 0;
+  }
+  .dishcart .mark {
+    font-size: 10px;
+  }
+  .dishcart .dishCartImage {
+    font-size: 15.1px;
+    margin: 0px;
+  }
+  .topDishesCart {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .little .time,
+  .little .rate {
+    font-size: 12.332px;
+  }
+  .likeBtn {
+    z-index: 50;
+    right: 5px;
+  }
+  .bottom {
+    align-items: center;
+  }
+  .bottom .tocartButton {
+    width: 25.935px;
+    height: 20.816px;
+  }
+  .price {
+    font-size: 15.998px;
+    font-weight: 600;
+    line-height: 30.442px;
+  }
+  .mark {
+    font-size: 11.45px;
+    font-style: normal;
+    font-weight: 400;
+    width: -moz-fit-content;
+    width: fit-content;
+    line-height: normal;
+    padding: 3px 7px;
+    border-radius: 4.839px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .dishcart {
+    border-radius: 25px;
+    width: 180px;
+    height: 250px;
+    padding: 10px;
+    gap: 0px;
+  }
+  .dishcart img {
+    width: 100%;
+    height: 120px;
+  }
+  .dishcart h3 {
+    font-size: 14.11px;
+    margin: 0px;
+  }
+  .topDishesCart {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .little span {
+    font-size: 10.332px;
+  }
+  .likeBtn {
+    z-index: 50;
+    right: 5px;
+  }
+  .bottom {
+    justify-content: space-around;
+  }
+  .bottom button {
+    width: 15.935px;
+    height: 13.816px;
+  }
+  .bottom button svg {
+    width: 20px;
+  }
+  .price {
+    font-size: 15.998px;
+    font-weight: 600;
+    line-height: 30.442px;
+  }
+  .mark {
+    font-size: 11.45px;
+    font-style: normal;
+    font-weight: 400;
+    width: -moz-fit-content;
+    width: fit-content;
+    line-height: normal;
+    padding: 3px 7px;
+    border-radius: 4.839px;
+  }
+}
+.TRENDING {
+  color: #FB471D;
+  background: #F7C5BA;
+}
+
+.SUPREME {
+  color: #309D5B;
+  background: #7bdba1;
+}
+
+.HEALTHY {
+  color: #DAA31A;
+  background: #F7EDD0;
+}
+
+.pagination {
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+  width: 100%;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 30px;
+}
+.pagination button {
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  width: 150px;
+  z-index: 999;
+  opacity: 1;
+  border-radius: 8px;
+  background-color: #6C5FBC;
+  color: white;
+}
+
+.search {
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.search input {
+  padding: 10px 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 12px;
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[13].use[5]!./src/components/Herro/page.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.intro {
+  display: flex;
+  align-items: center;
+}
+
+.introInfo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 13px;
+  padding-right: 250px;
+}
+.introInfo .prBtn {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+.introInfo .Introsubtitle {
+  color: rgba(32, 31, 31, 0.2);
+  font-size: 10.667px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 1.422px;
+  display: flex;
+  align-items: center;
+}
+.introInfo .Introsubtitle::before {
+  content: "";
+  width: 38.4px;
+  height: 0.711px;
+  display: block;
+  opacity: 0.2;
+  background: #201F1F;
+}
+.introInfo h1 {
+  color: #201F1F;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -2.133px;
+}
+.introInfo h1 span {
+  color: #5C4EAE;
+}
+.introInfo p {
+  color: #676767;
+  text-align: justify;
+  font-size: 12.8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.911px;
+}
+.introInfo p span {
+  color: #5C4EAE;
+}
+
+.introImage {
+  margin: 30px auto;
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .introInfo {
+    width: 100%;
+    text-align: center;
+    padding-right: 0;
+  }
+  .introInfo .Introsubtitle {
+    text-align: center;
+    font-size: 8px;
+    margin: 0 auto;
+  }
+  .introInfo h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .introInfo p {
+    text-align: center;
+    font-size: 10px;
+  }
+  .introImage {
+    width: 300px;
+  }
+  .introImage img {
+    width: 300px;
+    height: 300px;
+  }
+  .prBtn {
+    font-size: 11px;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .introInfo {
+    padding-right: 0;
+  }
+  .introInfo .Introsubtitle {
+    font-size: 10.667px;
+  }
+  .introInfo h1 {
+    font-size: 53.333px;
+  }
+  .introInfo p {
+    font-size: 12.8px;
+  }
+  .introImage {
+    width: 300px;
+  }
+  .introImage img {
+    width: 300px;
+    height: 300px;
+  }
+  .prBtn {
+    font-size: 11px;
+  }
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[13].use[5]!./src/components/Status/page.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.stat {
+  background: #6C5FBC;
+}
+
+.statWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 55px 0;
+}
+
+.statbox {
+  text-align: center;
+  width: 210px;
+  position: relative;
+}
+.statbox::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: -100px;
+  top: 0;
+  width: 1px;
+  background-color: #C5C5C5;
+  height: 100px;
+}
+.statbox:nth-child(3)::after {
+  display: none;
+}
+.statbox .num {
+  color: #FFF;
+  text-align: center;
+  font-size: 43.2px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 54px;
+}
+.statbox .statText {
+  color: #CBD5E1;
+  text-align: center;
+  font-size: 14.4px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21.6px;
+}
+
+@media screen and (max-width: 768px) {
+  .statWrapper {
+    flex-direction: column;
+    gap: 60px;
+  }
+  .statbox {
+    width: 210px;
+    position: relative;
+  }
+  .statbox::after {
+    content: "";
+    right: 60px;
+    top: 130%;
+    height: 1px;
+    width: 100px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .statbox::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: -20%;
+    top: 0;
+    width: 1px;
+    background-color: #C5C5C5;
+    height: 100px;
+  }
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[13].use[5]!./src/components/Mobile/page.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.mobileWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 95px 0;
+}
+
+.mobileInfo {
+  width: 50%;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: flex-start;
+}
+.mobileInfo h2 {
+  color: #18181B;
+  font-size: 50.923px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 58.198px;
+  text-transform: capitalize;
+}
+.mobileInfo li {
+  color: #676767;
+  font-size: 20.335px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30.502px;
+  /* 150% */
+  margin: 15px 0;
+}
+
+.colored {
+  color: #6C5FBC;
+}
+
+@media screen and (max-width: 768px) {
+  .mobileWrapper {
+    flex-direction: column-reverse;
+    padding: 25px;
+  }
+  .mobileWrapper .image {
+    margin-top: 25px;
+  }
+  .mobileWrapper .image img {
+    width: 170px;
+    height: 340px;
+  }
+  .mobileInfo {
+    align-items: center;
+    padding-right: 0;
+    width: 100%;
+    gap: 10px;
+  }
+  .mobileInfo h2 {
+    text-align: center;
+    font-size: 30px;
+    width: 60%;
+  }
+  .mobileInfo li {
+    text-align: center;
+    font-size: 11px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .prBtn {
+    padding: 10px 20px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .image img {
+    width: 200px;
+    object-fit: contain;
+  }
+  .mobileInfo {
+    padding-right: 0;
+    gap: 10px;
+  }
+  .mobileInfo h2 {
+    font-size: 35px;
+  }
+  .mobileInfo li {
+    font-size: 14px;
+  }
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[13].use[5]!./src/components/OurTop/page.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.little {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.little span {
+  display: flex;
+  color: #8E97A6;
+  font-size: 17.332px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23.11px;
+}
+
+.restorantBox {
+  display: flex;
+  flex-direction: column;
+  border: 1.593px solid var(--colors-gray-gray-2, #F4F4F6);
+  border-radius: 30px;
+  background: var(--Pure-White, #FFF);
+  box-shadow: 7.57186px 90.86229px 45.43114px 0px rgba(229, 229, 229, 0.7);
+}
+.restorantBox img {
+  object-fit: fit;
+  height: 100%;
+  width: 100%;
+}
+
+.infoRestoran {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 25px;
+}
+.infoRestoran button {
+  border: none;
+  background-color: transparent;
+  width: 60px;
+}
+
+.topDishes {
+  margin: 100px 0;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+}
+.topDishes .topDishesTitle {
+  color: #323142;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25.558px;
+  margin: 35px auto;
+}
+.topDishes a {
+  position: absolute;
+  bottom: -20px;
+  right: 10px;
+  color: #ACADB9;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 45.184px;
+  letter-spacing: -0.1px;
+  display: flex;
+  align-items: center;
+}
+.topDishes path {
+  stroke: #8E97A6;
+}
+
+.topDishesCart {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+  .restorantBox img {
+    height: 100%;
+  }
+  .topDishesCart {
+    flex-direction: row;
+    gap: 15px;
+  }
+  .infoRestoran {
+    flex-direction: column;
+    position: relative;
+    align-items: flex-start;
+  }
+  .infoRestoran h3 {
+    font-size: 15px;
+  }
+  .infoRestoran .little span {
+    font-size: 10px;
+  }
+  .infoRestoran button {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+  }
+  .infoRestoran button svg {
+    width: 40px;
+  }
+  .topDishes h3 {
+    font-size: 30px;
+  }
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[13].use[5]!./src/components/Purchase/page.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.miniCards {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.purchaseBox {
+  width: 50%;
+}
+.purchaseBox .purchaseBoxtitle {
+  color: var(--gray-900, #18181B);
+  font-size: 50.923px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 58.198px;
+  text-transform: capitalize;
+}
+
+.miniDashboard {
+  width: 50%;
+}
+.miniDashboard img {
+  max-width: 550px;
+  height: 550px;
+  object-fit: contain;
+}
+
+.flex {
+  display: flex;
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[13].use[5]!./src/components/PurchaseCard/page.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.MiniPurchaseCard {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 12px;
+  border-radius: 12.041px;
+  background: var(--Full-White, #fff);
+  width: 350px;
+  margin: 9px 0;
+  position: relative;
+}
+.MiniPurchaseCard .info h4 {
+  color: #323142;
+  font-size: 19.065px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+}
+.MiniPurchaseCard .info p {
+  color: #323142;
+  font-size: 12.041px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+}
+.MiniPurchaseCard .time {
+  color: #ACADB9;
+  font-size: 13.044px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .flex {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .purchaseBox {
+    width: 100%;
+  }
+  .purchaseBoxtitle {
+    font-size: 25px;
+    text-align: center;
+    padding: 0;
+  }
+  .miniDashboard {
+    width: 100%;
+  }
+  .miniDashboard img {
+    max-width: 100%;
+    object-fit: contain;
+  }
+  .purchaseBox .minicards {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+  }
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[13].use[5]!./src/components/Aside/Aside.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Aside_list {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 30px 30px;
+}
+
+.Aside_item {
+  max-width: 528px;
+  padding: 44px 43px 38px 43px;
+  fill: #FFF;
+  border-radius: 20.116px;
+  box-shadow: 1px 5px 10px 2px silver;
+  flex: 0 0 auto;
+  list-style: none;
+}
